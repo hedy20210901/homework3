@@ -1,0 +1,31 @@
+fruit = ["蘋果","葡萄","香蕉"]
+fruit.append('草莓')
+print('現在水果有',len(fruit),'個，分別拿起來吃：）')
+
+for i in fruit:
+  print('我手上拿的是',i,'，好吃！')
+  
+  
+現在水果有 4 個，分別拿起來吃：）
+我手上拿的是 蘋果 ，好吃！
+我手上拿的是 葡萄 ，好吃！
+我手上拿的是 香蕉 ，好吃！
+我手上拿的是 草莓 ，好吃！
+
+
+
+
+import random
+
+for i in range(0,3,1):
+  randomNumber = random.random()
+  if randomNumber < 0.1:
+    print('中獎拉',randomNumber)
+  else:
+    print('沒中獎',randomNumber)
+  i=i+1
+  
+  
+沒中獎 0.9298532913693771
+中獎拉 0.02549438793757619
+沒中獎 0.23046120130767367
